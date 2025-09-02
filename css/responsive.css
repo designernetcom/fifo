@@ -1192,7 +1192,7 @@
     padding: 50px 40px;
   }
 }
-@media only screen and (min-width: 375px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   .box1 h1::before {
     left: 16%;
     top: 22%;
@@ -1206,5 +1206,11 @@
   }
   .box2 {
     margin-top: 50px;
+  }
+  .box1 h1 {
+    font-size: 21px;
+  }
+  .section-title span {
+    font-size: 15px;
   }
 }
