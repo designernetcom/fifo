@@ -6756,7 +6756,7 @@ p {
   font-size: 16px;
 }
 .box1 {
-  background-image: linear-gradient(#ff7f00, #ff7f00c2, #ffbf00);
+  /* background-image: linear-gradient(#ff7f00, #ff7f00c2, #ffbf00); */
   padding: 40px;
   border-radius: 42px 0 42px 0;
   /* height: 300px;
@@ -6784,6 +6784,15 @@ p {
 }
 #services {
   padding-top: 70px;
+}
+.box1,
+.box2 {
+  height: 190px;
+}
+.box1,
+.box2 a {
+  display: flex;
+  justify-content: center;
 }
 /* .box1 h1::before {
   content: "";
@@ -6849,3 +6858,36 @@ p {
 .social-media-container ul li a {
   color: #fff;
 } */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+.box1 a img {
+  width: 300px;
+}
+.box2 a img {
+  width: 300px;
+}
+/* .box1,
+.box2 a {
+  width: 320px;
+} */
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
