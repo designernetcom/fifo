@@ -255,7 +255,7 @@ label {
 }
 /* scrollUp */
 #scrollUp {
-  background: #c81912;
+  background: #ff7a00;
   height: 45px;
   width: 45px;
   right: 50px;
@@ -334,7 +334,7 @@ label {
 }
 .main-menu ul li a {
   display: block;
-  color: #fff;
+  color: #333333;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding: 20px 0;
@@ -381,8 +381,8 @@ label {
 }
 .header-social a:hover {
   color: #fff;
-  background: transparent linear-gradient(90deg, #c81912 0%, #f64b3c 100%) 0% 0%
-    no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #005f99 0%, #005f99a8 100%) 0%
+    0% no-repeat padding-box;
 }
 .sticky-menu {
   left: 0;
@@ -404,7 +404,7 @@ label {
   display: block;
 }
 .menu-area {
-  background: #ff7f00;
+  background: #ffffff;
 }
 .menu-area::before {
   content: "";
@@ -919,13 +919,13 @@ label {
   font-size: 16px;
 }
 .btn.ss-btn {
-  background: transparent linear-gradient(90deg, #c81912 0%, #f64b3c 100%) 0% 0%
-    no-repeat padding-box;
-  box-shadow: 3px 4px 15px #eb3449a6;
+  background: transparent linear-gradient(90deg, #ff7a00 0%, #ff7a00b3 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 3px 4px 15px #ff7a008a;
   color: #fff;
 }
 .btn.ss-btn:hover {
-  background: #f64b3c;
+  background: #e86b00;
   color: #fff;
 }
 .slider-shape {
@@ -997,6 +997,7 @@ label {
   font-size: 38px;
   line-height: 1.4;
   margin-bottom: 35px;
+  color: #005f99;
 }
 .about-title p span {
   display: inline-block;
@@ -1041,7 +1042,7 @@ label {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #c81912;
+  color: #ff7a00;
   letter-spacing: 2px;
   display: inline-block;
   margin-bottom: 20px;
@@ -1086,7 +1087,7 @@ label {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #c81912;
+  color: #ff7a00;
   letter-spacing: 2px;
   display: block;
   margin-bottom: 20px;
@@ -3366,9 +3367,11 @@ div.single-cta:last-child {
 }
 /* 20. footer */
 .footer-bg {
-  background: url(../img/bg/footer_bg.png);
+  /* background: url(../img/bg/footer_bg.png); */
+  background: #0a1633;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 50px;
 }
 .f-cta-area.gray-bg {
   background: #f4f4fe;
@@ -3413,7 +3416,7 @@ div.single-cta:last-child {
   background: url("../img/bg/circle_right.png") no-repeat;
 }
 .footer-link ul li i {
-  color: #c81912;
+  color: #ff7a00;
   margin-right: 5px;
 }
 .footer-link ul li a {
@@ -3423,7 +3426,7 @@ div.single-cta:last-child {
 }
 .footer-link ul li a:hover {
   padding-left: 5px;
-  color: #c81912;
+  color: #ff7a00;
 }
 .footer-link ul li {
   margin-bottom: 10px;
@@ -3478,13 +3481,19 @@ div.single-cta:last-child {
 .copyright-text p {
   margin-bottom: 0;
   color: #ddd;
+  margin-top: 0;
+}
+.copyright-text p a {
+  color: #007bba;
 }
 
 .f-contact i {
   width: 40px;
   height: 40px;
-  background: transparent linear-gradient(90deg, #c81912 0%, #f64b3c 100%) 0% 0%
-    no-repeat padding-box;
+  /* background: transparent linear-gradient(90deg, #c81912 0%, #f64b3c 100%) 0% 0%
+    no-repeat padding-box; */
+  background: transparent linear-gradient(90deg, #005f99 0%, #005f996b 100%) 0%
+    0% no-repeat padding-box;
   line-height: 40px;
   color: #fff !important;
   text-align: center;
@@ -3615,7 +3624,7 @@ div.single-cta:last-child {
 }
 
 .main-menu .has-sub a:hover {
-  color: #000;
+  color: #ff7a00;
 }
 
 .main-menu .has-sub:hover > ul {
@@ -6736,7 +6745,7 @@ p.checkout-coupon input[type="text"] {
   height: 40px;
 }
 .copyright-text p {
-  color: #ff7f00;
+  color: #ff7a00;
   text-align: center;
 }
 .about-content p {
@@ -6759,6 +6768,7 @@ p {
   /* background-image: linear-gradient(#ff7f00, #ff7f00c2, #ffbf00); */
   padding: 40px;
   border-radius: 42px 0 42px 0;
+  border-top: 10px solid #ff7a00;
   /* height: 300px;
   background: white; */
 }
@@ -6783,7 +6793,7 @@ p {
   width: 100%;
 }
 #services {
-  padding-top: 70px;
+  padding-top: 20px;
 }
 .box1,
 .box2 {
@@ -6890,4 +6900,7 @@ p {
   .flex-container {
     flex-direction: column;
   }
+}
+.about-content p {
+  color: #666666;
 }
