@@ -7166,3 +7166,6 @@ a:hover {
 .navbar-brand span {
   color: #092968;
 }
+.about-content .slider-btn {
+  margin-bottom: 10px;
+}
