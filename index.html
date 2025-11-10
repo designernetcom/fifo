@@ -20,8 +20,11 @@
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
-
   <body>
     <!-- header -->
     <header class="header-area">
@@ -69,11 +72,11 @@
               <div class="col-xl-3 col-lg-2">
                 <div class="logo">
                   <a href="index.html"
-                    ><img src="img/logo/fifo-group.png" alt="logo"
+                    ><img src="img/logo/fifo-logo.png" alt="logo"
                   /></a>
                 </div>
               </div>
-              <div class="col-xl-7 col-lg-9">
+              <div class="col-xl-9 col-lg-9">
                 <div class="main-menu text-center">
                   <nav id="mobile-menu">
                     <ul>
@@ -82,13 +85,19 @@
                       </li>
 
                       <li class="has-sub">
-                        <a href="#">About Us</a>
+                        <a href="#">About </a>
                         <ul>
                           <li class="has-sub">
-                            <a href="#">FIFO Engineering Profile</a>
+                            <a href="#">Company Background</a>
                           </li>
                           <li>
-                            <a href="#">FIFO Industries Profile</a>
+                            <a href="#">Management Team</a>
+                          </li>
+                          <li>
+                            <a href="#">Quality & Certification</a>
+                          </li>
+                          <li>
+                            <a href="#">Location</a>
                           </li>
                         </ul>
                       </li>
@@ -99,16 +108,15 @@
                         <a href="#">FIFO Industries</a>
                       </li>
                       <li class="has-sub">
-                        <a href="#">Gallery</a>
-                        <ul>
-                          <li><a href="#">FIFO Engineering Gallery</a></li>
-                          <li>
-                            <a href="#">FIFO Industries Gallery</a>
-                          </li>
-                        </ul>
+                        <a href="#">3D Polymer</a>
+                      </li>
+                      <li class="has-sub">
+                        <a href="#">Our Market</a>
                       </li>
 
-                      <li><a href="#">Contact Us</a></li>
+                      <li class="has-sub">
+                        <a href="contact.html">Contact Us</a>
+                      </li>
                     </ul>
                   </nav>
                 </div>
@@ -120,7 +128,7 @@
                   ></a>
                 </div>
               </div> -->
-              <div class="col-lg-2 col-md-4 d-none d-lg-block">
+              <!-- <div class="col-lg-2 col-md-4 d-none d-lg-block">
                 <div class="header-social text-right">
                   <span>
                     <a href="#" title="Facebook"
@@ -134,7 +142,7 @@
                     ></a>
                   </span>
                 </div>
-              </div>
+              </div> -->
               <div class="col-12">
                 <div class="mobile-menu"></div>
               </div>
@@ -144,22 +152,6 @@
 
         <div class="offcanvas-menu">
           <span class="menu-close"><i class="fas fa-times"></i></span>
-          <form
-            role="search"
-            method="get"
-            id="searchform"
-            class="searchform"
-            action="http://wordpress.zcube.in/xconsulta/"
-          >
-            <input
-              type="text"
-              name="s"
-              id="search"
-              value=""
-              placeholder="Search"
-            />
-            <button><i class="fa fa-search"></i></button>
-          </form>
 
           <div id="cssmenu2" class="menu-one-page-menu-container">
             <ul id="menu-one-page-menu-1" class="menu">
@@ -183,16 +175,16 @@
     <!-- main-area -->
     <main>
       <!-- slider-area -->
-      <section id="home" class="slider-area fix p-relative">
+      <!-- <section id="home" class="slider-area fix p-relative">
         <div id="demo" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
+        
           <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
           </ul>
 
-          <!-- The slideshow -->
+       
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/slider/banner.jpg" alt="Los Angeles" />
@@ -205,7 +197,7 @@
             </div>
           </div>
 
-          <!-- Left and right controls -->
+          
           <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
@@ -214,7 +206,7 @@
           </a>
         </div>
 
-        <!-- <div class="slider-active">
+        <div class="slider-active">
           <div
             class="single-slider slider-bg slider-bg5 d-flex align-items-center"
             style="background-image: url(img/slider/banner.jpg)"
@@ -327,13 +319,22 @@
               </div>
             </div>
           </div>
-        </div> -->
-      </section>
+        </div>
+      </section> -->
       <!-- slider-area-end -->
+
+      <section style="padding: 50px 0">
+        <div class="container">
+          <div class="row">
+            <h1>Video Coming Soon....</h1>
+          </div>
+        </div>
+      </section>
       <!-- about-area -->
+
       <section
         id="about"
-        class="about-area about-p pt-100 pb-95 p-relative"
+        class="about-area about-p p-relative"
         style="
           background-image: url(img/bg/about_aliment_bg.png);
           background-size: contain;
@@ -344,13 +345,16 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="about-content s-about-content pl-30">
+              <div
+                class="about-content s-about-content pl-30 wow animate__animated animate__fadeInLeft"
+              >
                 <div class="about-title second-atitle">
-                  <span
+                  <!-- <span
                     >About Us
-                    <small class="circle-right"
-                      ><img src="img/bg/circle_right.png" alt="img" /></small
-                  ></span>
+                    <small class="circle-right">
+                      <img src="img/bg/circle_right.png" alt="img" />
+                    </small></span
+                  > -->
                   <h2>FIFO Group</h2>
                   <h5>We Proudly Providing Services Since Past 10 Years...</h5>
                 </div>
@@ -388,7 +392,7 @@
                 </div> -->
                 <div class="slider-btn mt-30">
                   <a
-                    href="#"
+                    href="contact.html"
                     class="btn ss-btn"
                     data-animation="fadeInRight"
                     data-delay=".8s"
@@ -403,86 +407,237 @@
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="s-about-img p-relative">
-                <img src="img/about.jpg" alt="img" />
-              </div>
+              <img src="img/about-us.JPG" alt="about-us" / class="wow
+              animate__animated animate__fadeInRight">
             </div>
           </div>
         </div>
       </section>
       <!-- about-area-end -->
 
-      <!-- counter-area -->
-      <!-- <div
-        class="counter-area"
-        style="
-          background-image: url(img/count/count-bg.jpg);
-          background-repeat: no-repeat;
-          background-position: bottom;
-        "
-      >
+      <section class="choose-section">
         <div class="container">
-          <div class="row align-items-end">
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div
-                class="single-counter-img text-center fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <img src="img/count/count-main.png" alt="img" class="img" />
+          <div class="row align-items-center">
+            <!-- Left Content -->
+            <div class="col-md-7 wow animate__animated animate__fadeInUp">
+              <h2>Why Choose Us ?</h2>
+
+              <div class="choose-item">
+                <div class="icon">
+                  <i class="fas fa-award"></i>
+                </div>
+                <div>
+                  <h5>10+ Years of Excellence</h5>
+                  <p>
+                    Delivering precision-engineered moulds and tools trusted by
+                    clients for over a decade.
+                  </p>
+                </div>
+              </div>
+
+              <div class="choose-item">
+                <div class="icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div>
+                  <h5>Complete Manufacturing Solutions</h5>
+                  <p>
+                    From moulds to jigs, fixtures, and gauges — all crafted
+                    under one roof with precision.
+                  </p>
+                </div>
+              </div>
+
+              <div class="choose-item">
+                <div class="icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div>
+                  <h5>Customer-Focused Service</h5>
+                  <p>
+                    We believe in long-term partnerships built on trust,
+                    transparency, and timely delivery.
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div
-                class="single-counter text-center wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <img src="img/count/icon.png" alt="img" />
-                <div class="counter p-relative">
-                  <span class="count">9878</span><small>+</small>
-                </div>
-                <p>Happy Clients</p>
-                <div class="line"></div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div
-                class="single-counter text-center wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <img src="img/count/icon2.png" alt="img" />
-                <div class="counter p-relative">
-                  <span class="count">500</span><small>+</small>
-                </div>
-                <p>Employees</p>
-                <div class="line"></div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-              <div
-                class="single-counter text-center wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <img src="img/count/icon3.png" alt="img" />
-                <div class="counter p-relative">
-                  <small>$</small><span class="count">58.45</span
-                  ><small>M</small>
-                </div>
-                <p>Annual Turnover</p>
-                <div class="line"></div>
+
+            <!-- Right Image -->
+            <div
+              class="col-md-5 text-center wow animate__animated animate__fadeInUp"
+            >
+              <div class="choose-img">
+                <img
+                  src="img/why-choose-us.JPG"
+                  alt="Team Image"
+                  class="img-fluid shadow"
+                />
               </div>
             </div>
           </div>
         </div>
-      </div> -->
-      <!-- counter-area-end -->
-      <!-- services-area -->
+      </section>
+
+      <!-- blog-area -->
+      <section
+        id="blog"
+        class="blog-area p-relative fix"
+        style="
+          background-image: url(img/bg/services_aliment_bg.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center center;
+        "
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div
+                class="section-title text-center wow fadeInDown animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <h2>Our Products</h2>
+
+                <!-- <h2>Stay Updated To Our Blog & News</h2> -->
+              </div>
+            </div>
+          </div>
+          <div class="row home-blog-active">
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="single-post mb-30 wow fadeInUp animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <div class="blog-thumb">
+                  <a href=""
+                    ><img src="img/product/product1.png" alt="img"
+                  /></a>
+                </div>
+                <div class="blog-content">
+                  <h4>
+                    <a href="">Product1</a>
+                  </h4>
+
+                  <div class="slider-btn">
+                    <a
+                      href="#"
+                      class="ss-btn"
+                      data-animation="fadeInRight"
+                      data-delay=".8s"
+                      >Read More <i class="fas fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="single-post active mb-30 wow fadeInUp animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <div class="blog-thumb">
+                  <a href=""
+                    ><img src="img/product/product2.JPG" alt="img"
+                  /></a>
+                </div>
+                <div class="blog-content">
+                  <!-- <div class="b-meta mb-20">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                        <i class="far fa-calendar-alt"></i> 7 March, 2019
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                        <i class="fas fa-user"></i> By Jhone Doe
+                      </div>
+                    </div>
+                  </div> -->
+
+                  <h4>
+                    <a href="">Product2</a>
+                  </h4>
+                  <!-- <p>
+                    Lorem ipsum dolor sit amet consectetur adipisi cing elit sed
+                    do eiusmod tempor incididunt ut labore et dolore.
+                  </p> -->
+                  <div class="slider-btn">
+                    <a
+                      href="#"
+                      class="ss-btn"
+                      data-animation="fadeInRight"
+                      data-delay=".8s"
+                      >Read More <i class="fas fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="single-post mb-30 wow fadeInUp animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <div class="blog-thumb">
+                  <a href=""
+                    ><img src="img/product/product3.png" alt="img"
+                  /></a>
+                </div>
+                <div class="blog-content">
+                  <h4>
+                    <a href="">Product 3</a>
+                  </h4>
+
+                  <div class="slider-btn">
+                    <a
+                      href="#"
+                      class="ss-btn"
+                      data-animation="fadeInRight"
+                      data-delay=".8s"
+                      >Read More <i class="fas fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="single-post mb-30 wow fadeInUp animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+              >
+                <div class="blog-thumb">
+                  <a href=""
+                    ><img src="img/product/product4.png" alt="img"
+                  /></a>
+                </div>
+                <div class="blog-content">
+                  <h4>
+                    <a href="">Product 4</a>
+                  </h4>
+
+                  <div class="slider-btn">
+                    <a
+                      href="#"
+                      class="ss-btn"
+                      data-animation="fadeInRight"
+                      data-delay=".8s"
+                      >Read More <i class="fas fa-chevron-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog-area-end -->
+
       <section
         id="services"
-        class="services-area services-bg services-two pt-95 pb-70"
+        class="services-area services-bg services-two"
         style="
           background-image: url(img/bg/services_aliment_bg.png);
           background-size: contain;
@@ -494,37 +649,67 @@
           <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-10">
               <div
-                class="section-title text-center pl-40 pr-40 mb-80 wow fadeInDown animated"
+                class="section-title text-center pl-40 pr-40 wow fadeInDown animated"
                 data-animation="fadeInDown animated"
                 data-delay=".2s"
+                style="visibility: visible; animation-name: fadeInDown"
               >
-                <span
-                  ><small class="circle-left"
-                    ><img src="img/bg/circle_Left.png" alt="img"
-                  /></small>
-                  our services
-                  <small class="circle-right"
-                    ><img src="img/bg/circle_right.png" alt="img" /></small
-                ></span>
-                <h2>We Offer Best Product Service To You.</h2>
+                <span style="color: white"
+                  ><small class="circle-left">
+                    <!-- <img src="img/bg/circle_Left.png" alt="img"
+                  /> -->
+                  </small>
+                  Group Of Companies
+                  <small class="circle-right">
+                    <!-- <img src="img/bg/circle_right.png" alt="img" /> -->
+                  </small></span
+                >
+                <!-- <h2>We Offer Best Product Service To You.</h2> -->
               </div>
             </div>
           </div>
-          <div class="flex-container">
-            <div class="flex-item-left">
-              <div class="box1 shadow">
-                <!-- <h1>FIFO Engineering</h1> -->
-                <a href="fifo-engineering.html">
-                  <img src="img/logo/fifo-eng-logo.png" alt=""
-                /></a>
+
+          <section class="industries py-5">
+            <div class="container">
+              <div class="row text-center">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="industry-card">
+                    <img
+                      src="img/bg/fifo-eng.JPG"
+                      alt="fifo-eng"
+                      class="img-fluid"
+                    />
+                    <h5 class="mt-3"><a href="">FIFO Engineering</a></h5>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="industry-card">
+                    <img
+                      src="img/bg/fifo-industry.JPG"
+                      alt="FIFO Industry"
+                      class="img-fluid"
+                    />
+                    <h5 class="mt-3"><a href="">FIFO Industry</a></h5>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4 mb-4">
+                  <div class="industry-card">
+                    <img
+                      src="img/bg/3d-polymer.JPG"
+                      alt="3D Polymer"
+                      class="img-fluid"
+                    />
+                    <h5 class="mt-3"><a href="">3D Polymer</a></h5>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="flex-item-right">
-              <div class="box1 box2 shadow">
-                <a href=""> <img src="img/logo/fifo-ind-logo.png" alt="" /> </a>
-              </div>
-            </div>
-          </div>
+          </section>
 
           <!-- <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -689,919 +874,31 @@
         </div>
       </section>
 
-      <!-- services-area-end -->
-      <!-- cta-area -->
-      <!-- <section
-        class="cta-area cta-bg pt-95 pb-70 mt-60"
-        style="
-          background-image: url(img/bg/how_it_bg.png);
-          background-size: cover;
-        "
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div
-                class="section-title cta-title wow fadeInLeft animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <span
-                  >OUR IMPORTENTS
-                  <small class="circle-right"
-                    ><img src="img/bg/circle_right.png" alt="img" /></small
-                ></span>
-                <h2>How We Work For You To Boost Your Business</h2>
-                <p>
-                  Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Nunc ornare mauris elit, vel semper ipsum convallis a. Quisque
-                  id faucibus massa. Aliquam a bibendum lacus, vitae laoreet
-                  lectus. Sed a velit suscipit, mattis elit sed, convallis elit.
-                </p>
-                <p>
-                  Phasellus ut consequat elit. Donec dapibus, dolor ac mollis
-                  mollis, sapien lorem gravida magna.
-                </p>
-                <div class="row mt-30">
-                  <div class="col-lg-5">
-                    <div class="social">
-                      <div class="icon">
-                        <img src="img/video/1.svg" alt="img" />
-                      </div>
-                      <p><a href="#">info@example.com</a></p>
-                    </div>
-                  </div>
-                  <div class="col-lg-2">
-                    <div class="line">
-                      <img src="img/video/line.png" alt="img" />
-                    </div>
-                  </div>
-                  <div class="col-lg-5">
-                    <div class="social">
-                      <div class="icon">
-                        <img src="img/video/2.svg" alt="img" />
-                      </div>
-                      <p><a href="#">+91 555 234-8765</a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div
-                class="video-img wow fadeInRight animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-                style="
-                  background-image: url(img/video/how-img.png);
-                  background-size: cover;
-                "
-              >
-                <a
-                  href="https://www.youtube.com/watch?v=vKSA_idPZkc"
-                  class="video-i popup-video"
-                >
-                  <img src="img/video/play.svg" alt="img" class="active-icon"
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- cta-area-end -->
-      <!-- team-area-->
-      <!-- <section
-        id="team"
-        class="pt-95 pb-90"
-        style="
-          background-image: url(img/bg/our_team_bg.png);
-          background-size: contain;
-          background-position: center center;
-          background-repeat: no-repeat;
-        "
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-10">
-              <div class="section-title text-center pl-40 pr-40 mb-80">
-                <span
-                  ><small class="circle-left"
-                    ><img src="img/bg/circle_Left.png" alt="img"
-                  /></small>
-                  OUR TEAM
-                  <small class="circle-right"
-                    ><img src="img/bg/circle_right.png" alt="img" /></small
-                ></span>
-                <h2>Our Expert Workers</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row team-active">
-            <div class="col-xl-4">
-              <div
-                class="single-team text-center mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="team-thumb">
-                  <div class="brd">
-                    <img src="img/team/team_01.png" alt="img" />
-                  </div>
-                </div>
-                <div class="team-info">
-                  <h4><a href="team-details.html">Nashid Martines</a></h4>
-                  <span>DIRECTOR</span>
-                  <div class="team-social mt-15">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-team text-center mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="team-thumb">
-                  <div class="brd">
-                    <img src="img/team/team_02.png" alt="img" />
-                  </div>
-                </div>
-                <div class="team-info">
-                  <h4><a href="team-details.html">Konne Backfield</a></h4>
-                  <span>MARKETING</span>
-                  <div class="team-social mt-15">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-team text-center mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="team-thumb">
-                  <div class="brd">
-                    <img src="img/team/team_03.png" alt="img" />
-                  </div>
-                </div>
-                <div class="team-info">
-                  <h4><a href="team-details.html">Hackson Willingham</a></h4>
-                  <span>SALES MANAGER</span>
-                  <div class="team-social mt-15">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-team text-center mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="team-thumb">
-                  <div class="brd">
-                    <img src="img/team/team_01.png" alt="img" />
-                  </div>
-                </div>
-                <div class="team-info">
-                  <h4><a href="team-details.html">Nashid Martines</a></h4>
-                  <span>DIRECTOR</span>
-                  <div class="team-social mt-15">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-team text-center mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="team-thumb">
-                  <div class="brd">
-                    <img src="img/team/team_02.png" alt="img" />
-                  </div>
-                </div>
-                <div class="team-info">
-                  <h4><a href="team-details.html">Konne Backfield</a></h4>
-                  <span>MARKETING</span>
-                  <div class="team-social mt-15">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-team text-center mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="team-thumb">
-                  <div class="brd">
-                    <img src="img/team/team_03.png" alt="img" />
-                  </div>
-                </div>
-                <div class="team-info">
-                  <h4><a href="team-details.html">Hackson Willingham</a></h4>
-                  <span>SALES MANAGER</span>
-                  <div class="team-social mt-15">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- team-area-end -->
-      <!-- project-area-->
-      <!-- <section
-        id="project"
-        class="project pt-95 fix"
-        style="
-          background-image: url(img/bg/portfolio_bg.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-        "
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-10">
-              <div class="section-title text-left pl-40 pr-40 mb-80">
-                <span
-                  >PORTFOLIO
-                  <small class="circle-right"
-                    ><img src="img/bg/circle_right.png" alt="img" /></small
-                ></span>
-                <h2>Our Latest Projects</h2>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-10"></div>
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row portfolio-active">
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img01.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img02.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img03.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img04.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img05.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img01.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img02.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img03.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4">
-              <div
-                class="single-project mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="project-thumb">
-                  <img src="img/portfolio/p_img04.png" alt="img" class="img" />
-                </div>
-                <div class="project-info">
-                  <h4>Materals Management</h4>
-                  <a href="#"
-                    >Take a Look
-                    <img src="img/portfolio/right_icon.svg" alt="img" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- project-area-end -->
-
-      <!-- testimonial-area -->
-      <!-- <section
-        id="testimonios"
-        class="testimonial-area testimonial-p pt-50 pb-100 fix"
-        style="
-          background-image: url(img/bg/testimonial_bg.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center center;
-        "
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
-              <div
-                class="section-title center-align mb-40 wow fadeInDown animated text-center"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <span
-                  ><small class="circle-left"
-                    ><img src="img/bg/circle_Left.png" alt="img"
-                  /></small>
-                  Testimonial
-                  <small class="circle-right"
-                    ><img src="img/bg/circle_right.png" alt="img" /></small
-                ></span>
-                <h2>What Our Client’s Say’s</h2>
-              </div>
-              <div class="testimonial-active2">
-                <div class="slider slider-for">
-                  <div class="single-testimonial">
-                    <div class="com-icon">
-                      <img src="img/bg/Icon_comment.png" alt="img" />
-                    </div>
-                    <p>
-                      “Phasellus ut consequat elit. Donec dapibus, dolor ac
-                      mollis mollis, sapien lorem gravida magna, eu ullamcorper
-                      mi lectus a tortor. Aenean elementum tortor a sem
-                      pharetra, in accumsan odio commodo. Nam ultricies ut enim
-                      nec accumsan. Vivamus vel nunc eu diam fringilla bibendum
-                      laoreet eget felis. Praesent justo mauris, tincidunt vitae
-                      nisi ultricies, condimentum finibus quam. Aenean sed velit
-                      nulla. Etiam viverra scelerisque porta. Quisque ut dolor
-                      aliquam, gravida lacus at, tincidunt ex. Donec dapibus.
-                    </p>
-                    <div class="testi-author">
-                      <img src="img/testimonial/test_img01.png" alt="img" />
-                      <div class="ta-info">
-                        <h6>Mr Jone Dose</h6>
-                        <span>SALES EXECUTIVE</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="single-testimonial">
-                    <div class="com-icon">
-                      <img src="img/bg/Icon_comment.png" alt="img" />
-                    </div>
-                    <p>
-                      “Phasellus ut consequat elit. Donec dapibus, dolor ac
-                      mollis mollis, sapien lorem gravida magna, eu ullamcorper
-                      mi lectus a tortor. Aenean elementum tortor a sem
-                      pharetra, in accumsan odio commodo. Nam ultricies ut enim
-                      nec accumsan. Vivamus vel nunc eu diam fringilla bibendum
-                      laoreet eget felis. Praesent justo mauris, tincidunt vitae
-                      nisi ultricies, condimentum finibus quam. Aenean sed velit
-                      nulla. Etiam viverra scelerisque porta. Quisque ut dolor
-                      aliquam, gravida lacus at, tincidunt ex. Donec dapibus..
-                    </p>
-                    <div class="testi-author">
-                      <img src="img/testimonial/test_img02.png" alt="img" />
-                      <div class="ta-info">
-                        <h6>Margie Jone</h6>
-                        <span>Web Developer</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="single-testimonial">
-                    <div class="com-icon">
-                      <img src="img/bg/Icon_comment.png" alt="img" />
-                    </div>
-                    <p>
-                      “Phasellus ut consequat elit. Donec dapibus, dolor ac
-                      mollis mollis, sapien lorem gravida magna, eu ullamcorper
-                      mi lectus a tortor. Aenean elementum tortor a sem
-                      pharetra, in accumsan odio commodo. Nam ultricies ut enim
-                      nec accumsan. Vivamus vel nunc eu diam fringilla bibendum
-                      laoreet eget felis. Praesent justo mauris, tincidunt vitae
-                      nisi ultricies, condimentum finibus quam. Aenean sed velit
-                      nulla. Etiam viverra scelerisque porta. Quisque ut dolor
-                      aliquam, gravida lacus at, tincidunt ex. Donec dapibus.
-                    </p>
-                    <div class="testi-author">
-                      <img src="img/testimonial/test_img03.png" alt="img" />
-                      <div class="ta-info">
-                        <h6>Mr Jone Dose</h6>
-                        <span>Web Developer</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="single-testimonial">
-                    <div class="com-icon">
-                      <img src="img/bg/Icon_comment.png" alt="img" />
-                    </div>
-                    <p>
-                      “Nam liber tempor cum soluta nobis eleifend option congue
-                      is nihil imper per tem por legere me doming vulputate
-                      velit esse molestiesoluta nobis eleifend option congue is
-                      nihil imper per tem por legere me doming vulputate velit
-                      esse molestiesoluta nobis eleifend option congue is nihil
-                      imper .
-                    </p>
-                    <div class="testi-author">
-                      <img src="img/testimonial/test_img01.png" alt="img" />
-                      <div class="ta-info">
-                        <h6>Mr Jone Dose</h6>
-                        <span>Web Developer</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="slider slider-nav">
-                  <div class="testimonial-item">
-                    <img src="img/testimonial/test_img01.png" alt="img" />
-                  </div>
-                  <div class="testimonial-item">
-                    <img src="img/testimonial/test_img02.png" alt="img" />
-                  </div>
-                  <div class="testimonial-item">
-                    <img src="img/testimonial/test_img03.png" alt="img" />
-                  </div>
-                  <div class="testimonial-item">
-                    <img src="img/testimonial/test_img01.png" alt="img" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-1"></div>
-          </div>
-        </div>
-      </section> -->
-      <!-- testimonial-area-end -->
-
-      <!-- counter-area -->
-      <!-- <div
-        class="call-area"
-        style="
-          background-image: url(img/call/call-bg.png);
-          background-repeat: no-repeat;
-          background-position: bottom;
-        "
-      >
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5 col-md-5 col-sm-12">
-              <div
-                class="single-counter-img fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <img src="img/call/call-man.png" alt="img" class="img" />
-              </div>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12">
-              <h2>Perfect Solutions <span>For Any Industrials</span></h2>
-              <p>
-                Donec at nunc laoreet, aliquet mi non, scelerisque diam. Mauris
-                pulvinar nisl eget dui luctus, eu vehicula odio tempus. Nulla
-                maximus molestie ante eget sollicitudin.
-              </p>
-              <div class="number">+91 555 234-8765</div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- counter-area-end -->
-
-      <!-- blog-area -->
-      <!-- <section
-        id="blog"
-        class="blog-area p-relative pt-95 pb-90 fix"
-        style="
-          background-image: url(img/bg/services_aliment_bg.png);
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center center;
-        "
-      >
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-10">
-              <div
-                class="section-title text-center mb-80 wow fadeInDown animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <span
-                  ><small class="circle-left"
-                    ><img src="img/bg/circle_Left.png" alt="img"
-                  /></small>
-                  OUR LATEST BOLG
-                  <small class="circle-right"
-                    ><img src="img/bg/circle_right.png" alt="img" /></small
-                ></span>
-                <h2>Stay Updated To Our Blog & News</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row home-blog-active">
-            <div class="col-lg-4 col-md-6">
-              <div
-                class="single-post mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="blog-thumb">
-                  <a href="blog-details.html"
-                    ><img src="img/blog/blog_img01.jpg" alt="img"
-                  /></a>
-                </div>
-                <div class="blog-content">
-                  <div class="b-meta mb-20">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <i class="far fa-calendar-alt"></i> 7 March, 2019
-                      </div>
-                      <div class="col-lg-6 col-md-6">
-                        <i class="fas fa-user"></i> By Jhone Doe
-                      </div>
-                    </div>
-                  </div>
-                  <h4>
-                    <a href="blog-details.html"
-                      >Making Distribut Product Team Work More With Monday</a
-                    >
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisi cing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-
-                  <div class="slider-btn">
-                    <a
-                      href="#"
-                      class="ss-btn"
-                      data-animation="fadeInRight"
-                      data-delay=".8s"
-                      >Read More <i class="fas fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div
-                class="single-post active mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="blog-thumb">
-                  <a href="blog-details.html"
-                    ><img src="img/blog/blog_img02.jpg" alt="img"
-                  /></a>
-                </div>
-                <div class="blog-content">
-                  <div class="b-meta mb-20">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <i class="far fa-calendar-alt"></i> 7 March, 2019
-                      </div>
-                      <div class="col-lg-6 col-md-6">
-                        <i class="fas fa-user"></i> By Jhone Doe
-                      </div>
-                    </div>
-                  </div>
-
-                  <h4>
-                    <a href="blog-details.html"
-                      >Monthly eraesent justo mauris, vitae nisi ultricies.</a
-                    >
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisi cing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                  <div class="slider-btn">
-                    <a
-                      href="#"
-                      class="ss-btn"
-                      data-animation="fadeInRight"
-                      data-delay=".8s"
-                      >Read More <i class="fas fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div
-                class="single-post mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="blog-thumb">
-                  <a href="blog-details.html"
-                    ><img src="img/blog/blog_img03.jpg" alt="img"
-                  /></a>
-                </div>
-                <div class="blog-content">
-                  <div class="b-meta mb-20">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <i class="far fa-calendar-alt"></i> 7 March, 2019
-                      </div>
-                      <div class="col-lg-6 col-md-6">
-                        <i class="fas fa-user"></i> By Jhone Doe
-                      </div>
-                    </div>
-                  </div>
-                  <h4>
-                    <a href="blog-details.html"
-                      >User Experience Psychology And Performance Smashing</a
-                    >
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisi cing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                  <div class="slider-btn">
-                    <a
-                      href="#"
-                      class="ss-btn"
-                      data-animation="fadeInRight"
-                      data-delay=".8s"
-                      >Read More <i class="fas fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div
-                class="single-post mb-30 wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="blog-thumb">
-                  <a href="blog-details.html"
-                    ><img src="img/blog/blog_img01.jpg" alt="img"
-                  /></a>
-                </div>
-                <div class="blog-content">
-                  <div class="b-meta mb-20">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6">
-                        <i class="far fa-calendar-alt"></i> 7 March, 2019
-                      </div>
-                      <div class="col-lg-6 col-md-6">
-                        <i class="fas fa-user"></i> By Jhone Doe
-                      </div>
-                    </div>
-                  </div>
-                  <h4>
-                    <a href="blog-details.html"
-                      >Praesent justo mauris, tincidunt vitae nisi ultricies.</a
-                    >
-                  </h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisi cing elit sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-
-                  <div class="slider-btn">
-                    <a
-                      href="#"
-                      class="ss-btn"
-                      data-animation="fadeInRight"
-                      data-delay=".8s"
-                      >Read More <i class="fas fa-chevron-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- blog-area-end -->
-
-      <!-- contact-area -->
-      <!-- <section
-        id="contact"
-        class="contact-area contact-bg pt-95 pb-95 p-relative fix"
-        style="
-          background-image: url(img/bg/contact_bg.png);
-          background-size: cover;
-          background-repeat: no-repeat;
-        "
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div
-                class="section-title mb-60 wow fadeInDown animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <span>Contact</span>
-                <h2>Get In Tuch</h2>
-              </div>
-              <form
-                action="#"
-                class="contact-form wow fadeInUp animated"
-                data-animation="fadeInDown animated"
-                data-delay=".2s"
-              >
-                <div class="row">
-                  <div class="col-lg-12">
-                    <div class="contact-field p-relative c-name mb-20">
-                      <input
-                        type="text"
-                        placeholder="Write here  Jhonathan Doe"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="contact-field p-relative c-email mb-20">
-                      <input type="text" placeholder="Write here youremail" />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="contact-field p-relative c-subject mb-20">
-                      <input
-                        type="text"
-                        placeholder="I would like to discuss"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="contact-field p-relative c-message mb-45">
-                      <textarea
-                        name="message"
-                        id="message"
-                        cols="30"
-                        rows="10"
-                        placeholder="Write comments"
-                      ></textarea>
-                    </div>
-                    <div class="slider-btn">
-                      <a
-                        href="#"
-                        class="btn ss-btn"
-                        data-animation="fadeInRight"
-                        data-delay=".8s"
-                        >Send Message</a
-                      >
-                      <div
-                        class="btn-after"
-                        data-animation="fadeInRight"
-                        data-delay=".8s"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- contact-area-end -->
       <!-- brand-area -->
-      <!-- <div class="brand-area pt-60 pb-60" style="background-color: #fff">
+      <div class="brand-area pt-60" style="background-color: #fff">
         <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-10">
+              <div
+                class="section-title text-center pl-40 pr-40 wow fadeInDown animated"
+                data-animation="fadeInDown animated"
+                data-delay=".2s"
+                style="visibility: visible; animation-name: fadeInDown"
+              >
+                <span
+                  ><small class="circle-left">
+                    <!-- <img src="img/bg/circle_Left.png" alt="img"
+                  /> -->
+                  </small>
+                  our clients
+                  <small class="circle-right">
+                    <!-- <img src="img/bg/circle_right.png" alt="img" /> -->
+                  </small></span
+                >
+                <!-- <h2>We Offer Best Product Service To You.</h2> -->
+              </div>
+            </div>
+          </div>
           <div class="row brand-active">
             <div class="col-xl-2">
               <div class="single-brand">
@@ -1630,158 +927,81 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <!-- brand-area-end -->
     </main>
     <!-- main-area-end -->
-    <!-- footer -->
-    <footer class="footer-bg footer-p">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row justify-content-between">
-            <!-- <div class="col-xl-3 col-lg-3 col-sm-6">
-              <div class="footer-widget mb-30">
-                <div class="f-widget-title">
-                  <h5>About Us</h5>
-                </div>
-                <div class="footer-text mb-20">
-                  <p>
-                    We at FIFO CORPORATION have a fully experienced and
-                    enthusiastic team We have a strong hand in manufacturing
-                    past 10 years of all types of Injectoin Mould like 2 Plate
-                    Moulds, 3 Plate Mould, Unscrewing Mould, Hot Runner Mould
-                    etc.
-                  </p>
-                </div>
-                <div class="footer-social">
-                  <span>Follow Us</span>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                </div>
-              </div>
+
+    <footer class="footer bg-light text-dark pt-5">
+      <div class="container">
+        <div class="row">
+          <!-- Logo & Description -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="img/logo/fifo-logo-footer.png"
+              alt="FD Group Logo"
+              class="mb-3"
+              style="width: 100px"
+            />
+
+            <!-- <div class="social-icons">
+              <a href="#" class="btn btn-outline-dark btn-sm rounded-0 mr-2"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="btn btn-outline-dark btn-sm rounded-0 mr-2"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="btn btn-outline-dark btn-sm rounded-0 mr-2"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </div> -->
-            <div class="col-xl-4 col-lg-4 col-sm-6">
-              <div class="footer-widget mb-30">
-                <div class="f-widget-title">
-                  <h5>Contact Us</h5>
-                </div>
-                <div class="footer-link">
-                  <div class="f-contact">
-                    <ul>
-                      <li>
-                        <i class="icon dripicons-phone"></i>
-                        <span
-                          >+91 8983400365<br />
-                          +91 9112129999
-                        </span>
-                      </li>
-                      <li>
-                        <i class="icon dripicons-phone"></i>
-                        <span>
-                          +91 8482836581 <br />
-                          +91 9322241645
-                        </span>
-                      </li>
-                      <li>
-                        <i class="icon dripicons-mail"></i>
-                        <span
-                          ><a href="mailto:fifoindustries7@gmail.com">
-                            fifoindustries7@gmail.com</a
-                          ><br /><a href="mailto:fifoengineering7@gmail.com"
-                            >fifoengineering7@gmail.com</a
-                          ></span
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-sm-6">
-              <div class="footer-widget mb-30">
-                <div class="f-widget-title">
-                  <h5>Our Links</h5>
-                </div>
-                <div class="footer-link">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-chevron-right"></i> Home</a>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fas fa-chevron-right"></i> About Us</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fas fa-chevron-right"></i> FIFO
-                        Engineering</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fas fa-chevron-right"></i> FIFO Industries</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fas fa-chevron-right"></i> FIFO Engineering
-                        Gallery</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fas fa-chevron-right"></i> FIFO Industries
-                        Gallery</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="fas fa-chevron-right"></i> Contact Us</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-5 col-lg-5 col-sm-6">
-              <div class="footer-widget mb-30">
-                <div class="f-widget-title">
-                  <h5>Our Locations</h5>
-                </div>
-                <div class="footer-link">
-                  <div class="f-contact">
-                    <ul>
-                      <li class="loc1">
-                        <i class="fal fa-map-marker-alt"></i>
-                        <span
-                          >FIFO Engineering : <br />
-                          S-Block 147, Bhosari, MIDC Pune-411039</span
-                        >
-                      </li>
-                      <li class="locations">
-                        <i class="fal fa-map-marker-alt"></i>
-                        <span
-                          >FIFO Industries : <br />
-                          Gala No. B-8 Shivraj Complex, Plot No. 133, Sector No
-                          7, PCNTDA Bhosari, M.I.D.C., Pune-411026</span
-                        >
-                      </li>
-                    </ul>
-                    <!-- <div class="footer-social">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                      <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
+          </div>
+
+          <!-- Services -->
+          <div class="col-md-3 mb-4">
+            <h6 class="text-uppercase font-weight-bold mb-3">Our Services</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">FIFO Engineering</a></li>
+              <li><a href="#">FIFO Industries</a></li>
+              <li><a href="#">3D Polymer</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-3 mb-4">
+            <h6 class="text-uppercase font-weight-bold mb-3">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Market</a></li>
+
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-3 mb-4">
+            <h6 class="text-uppercase font-weight-bold mb-3">Contact</h6>
+            <p style="color: white">
+              <i class="fas fa-map-marker-alt mr-2" style="color: white"></i>
+              Vicarage Chambers, 9 Park Square East, Leeds
+            </p>
+            <p style="color: white">
+              <i class="fas fa-phone-alt mr-2" style="color: #fff"></i>0113
+              2305566 (Hotline)
+            </p>
+            <p style="color: white">
+              <i class="fas fa-envelope mr-2" style="color: #fff"></i
+              >info@fdgroup.com
+            </p>
           </div>
         </div>
+
+        <!-- <div class="text-center">
+          <p class="mb-0">© 2025 FD GROUP. All Rights Reserved.</p>
+        </div> -->
       </div>
+    </footer>
+    <div class="container">
       <div class="copyright-wrap">
         <div class="container">
           <div class="row">
@@ -1790,7 +1010,7 @@
                 <p>
                   © FIFO Group. All rights reserved. © Design &amp; Developed By
                   <a href="https://netcom-india.com/" target="_blank"
-                    >NetCom Business Solutions Pvt. ltd.</a
+                    ><b> NetCom Business Solutions Pvt. ltd. </b></a
                   >
                 </p>
               </div>
@@ -1798,9 +1018,13 @@
           </div>
         </div>
       </div>
-    </footer>
-    <!-- footer-end -->
+    </div>
+    <!-- footer -->
 
+    <!-- footer-end -->
+    <script>
+      new WOW().init();
+    </script>
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -1822,7 +1046,6 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/element-in-view.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   </body>
-
-  <!-- Mirrored from htmldemo.zcubethemes.com/fabr/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Sep 2025 11:53:44 GMT -->
 </html>
