@@ -405,7 +405,7 @@ label {
 }
 .menu-area {
   background: #ffffff;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 .menu-area::before {
   content: "";
@@ -7145,4 +7145,24 @@ a:hover {
 }
 .contact-area a {
   color: #494444;
+}
+.nav-link {
+  font-weight: 600;
+  color: #092968 !important;
+  padding: 10px 15px;
+}
+/* .nav-link:hover,
+      .dropdown-item:hover {
+        color: #ff6600 !important;
+      } */
+.dropdown-menu {
+  margin-top: 0;
+  border-radius: 0;
+}
+.dropdown-item {
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.navbar-brand span {
+  color: #092968;
 }
