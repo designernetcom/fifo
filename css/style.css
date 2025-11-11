@@ -7169,3 +7169,7 @@ a:hover {
 .about-content .slider-btn {
   margin-bottom: 20px;
 }
+.navbar-light .navbar-toggler {
+  /* border-color: #092968 !important; */
+  border: 2px solid #092968 !important;
+}
