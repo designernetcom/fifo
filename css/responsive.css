@@ -494,8 +494,8 @@
     display: none !important;
   }
   .cta-bg .video-img {
-    margin-top: 100px;
-    height: 757px;
+    margin-top: 0;
+    height: 300px;
   }
   .logo {
     background: #fff;
@@ -1211,6 +1211,12 @@
     font-size: 21px;
   }
   .section-title span {
-    font-size: 15px;
+    font-size: 19px;
+  }
+  .vision h2 {
+    font-size: 19px;
+  }
+  .brand h2 {
+    font-size: 19px;
   }
 }
