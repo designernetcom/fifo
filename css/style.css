@@ -7303,7 +7303,7 @@ a:hover {
   );
 }
 
-.card-1:hover {
+/* .card-1:hover {
   background: linear-gradient(
     135deg,
     rgba(6, 182, 212, 0.12) 0%,
@@ -7345,7 +7345,7 @@ a:hover {
     rgba(6, 182, 212, 0.12) 0%,
     rgba(59, 130, 246, 0.08) 100%
   );
-}
+} */
 /* .card-2:hover {
   background: linear-gradient(
     135deg,
@@ -7605,7 +7605,8 @@ a:hover {
     rgba(255, 255, 255, 0.95) 0%,
     rgba(255, 255, 255, 0.85) 100%
   ); */
-  background: linear-gradient(135deg, #092968 0%, #ede3e3 100%);
+  background: #02a1dd;
+  /* background: linear-gradient(135deg, #092968 0%, #ede3e3 100%); */
   backdrop-filter: blur(20px);
   border-radius: 32px;
   padding: 25px 35px;
@@ -7638,10 +7639,10 @@ a:hover {
   opacity: 1;
 }
 
-.creative-card:hover {
+/* .creative-card:hover {
   transform: translateY(-12px) scale(1.02);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
-}
+} */
 
 .card-icon-wrapper {
   width: 90px;
@@ -7716,7 +7717,8 @@ a:hover {
 
 /* Card 2 - Pink */
 .card-2 .card-icon {
-  background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  /* background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%); */
+  background: #fff;
 }
 
 .card-2 .card-icon::before {
@@ -7732,8 +7734,9 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
-  background-color: linear-gradient(135deg, #fff 0%, #fff 100%);
+  /* background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  background-color: linear-gradient(135deg, #fff 0%, #fff 100%); */
+  background: #fff;
 }
 
 .card-3 .card-icon::before {
@@ -7746,7 +7749,8 @@ a:hover {
 
 /* Card 4 - Green */
 .card-4 .card-icon {
-  background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  /* background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%); */
+  background: #fff;
 }
 
 .card-4 .card-icon::before {
@@ -7787,7 +7791,7 @@ a:hover {
   font-size: 1.65rem;
   font-weight: 700;
   margin-bottom: 14px;
-  color: #0f172a;
+  color: #fff;
   letter-spacing: -0.5px;
   line-height: 1.3;
 }
@@ -7923,4 +7927,9 @@ a:hover {
 }
 .main-vdo iframe {
   height: 500px;
+}
+.main-vdo iframe {
+  pointer-events: auto !important;
+  position: relative;
+  z-index: 10;
 }
