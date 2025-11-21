@@ -7600,11 +7600,12 @@ a:hover {
 }
 
 .creative-card {
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.95) 0%,
     rgba(255, 255, 255, 0.85) 100%
-  );
+  ); */
+  background: linear-gradient(135deg, #092968 0%, #ede3e3 100%);
   backdrop-filter: blur(20px);
   border-radius: 32px;
   padding: 25px 35px;
@@ -7699,15 +7700,18 @@ a:hover {
 
 /* Card 1 - Purple */
 .card-1 .card-icon {
-  background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  /* background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%); */
+  background-color: white;
 }
 
 .card-1 .card-icon::before {
-  background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  /* background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%); */
+  background-color: white;
 }
 
 .card-1::after {
-  background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  /* background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%); */
+  background-color: white;
 }
 
 /* Card 2 - Pink */
@@ -7729,6 +7733,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #dbd6e6 0%, #d5d6ec 100%);
+  background-color: linear-gradient(135deg, #fff 0%, #fff 100%);
 }
 
 .card-3 .card-icon::before {
@@ -7789,7 +7794,7 @@ a:hover {
 
 .card-description {
   font-size: 1rem;
-  color: #64748b;
+  color: #fff;
   line-height: 1.7;
   font-weight: 400;
 }
@@ -7915,4 +7920,7 @@ a:hover {
 }
 .split-list li i {
   color: #00a8e8;
+}
+.main-vdo iframe {
+  height: 500px;
 }
